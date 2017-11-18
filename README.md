@@ -16,9 +16,11 @@ Give the hands a realistic 'tick' using a cubic-bezier transition-timing functio
 
 ### JavaScript
 
-Use a setInterval function to run the ````setDate()``` function every second. 
+Use a setInterval function to run the ```setDate()``` function every second. 
 
 Use ````const now = new Date();``` and ```const seconds = now.getSeconds();``` etc. to gte the current time. 
 
 Convert seconds, minutes and hours to degrees by dividing them by 60 or 12 and then multiplying the result by 360. Add 90 to offset the original move to 12 o clock. 
+
+The hands glitch when the second handreaches 12 as the second hand goes backwards to try to start again. Avoid this by using an if statement to set ```hand.style.transition = "none"``` if the seconds hand is at 90 degrees. 
 
