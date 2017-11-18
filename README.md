@@ -2,7 +2,7 @@
 
 An analog clockface built with JavaScript for Wes Bos' [JavaScript 30](https://javascript30.com/) course.
 
-[![Screenshot of JavaScript clock](https://screenshots.firefoxusercontent.com/images/60e26703-4af6-4f40-9716-5c10b11e4712.)](https://gk-hynes.github.io/js-and-css-clock/)
+[![Screenshot of JavaScript clock](https://screenshots.firefoxusercontent.com/images/60e26703-4af6-4f40-9716-5c10b11e4712.png)](https://gk-hynes.github.io/js-and-css-clock/)
 
 ## Notes
 
