@@ -18,7 +18,7 @@ Give the hands a realistic 'tick' using a cubic-bezier transition-timing functio
 
 Use a setInterval function to run the ```setDate()``` function every second. 
 
-Use ````const now = new Date();``` and ```const seconds = now.getSeconds();``` etc. to gte the current time. 
+Use ```new Date();``` and ```now.getSeconds();``` etc. to gte the current time. 
 
 Convert seconds, minutes and hours to degrees by dividing them by 60 or 12 and then multiplying the result by 360. Add 90 to offset the original move to 12 o clock. 
 
